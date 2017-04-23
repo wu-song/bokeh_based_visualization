@@ -8,6 +8,7 @@
 def scatter_with_hover(df, x, y, color=None, marker=None, size=10, line_color=None,cols=None,
                        title=None, xlabel=None, ylabel=None, legend='top_right',
                        fig=None, plot_width=600, plot_height=600, tools="pan,wheel_zoom,box_zoom,save,reset", **kwargs):
+        
      """
     Plots an interactive scatter plot of `x` vs `y` using bokeh, with automatic
     tooltips showing columns from `df`.
