@@ -45,6 +45,7 @@ def scatter_with_hover(df, x, y, color=None, marker=None, size=10, line_color=No
 
     Example
     -------
+    from scatter_with_hover import scatter_with_hover
     fig = scatter_with_hover(df, 'A', 'B')
     show(fig)
 
